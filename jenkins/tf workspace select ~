@@ -1,0 +1,20 @@
+tf workspace select ~
+
+tf workspace show
+
+tf init
+
+tf apply -var-file=prod.tfvars
+
+[aws vpc] 생성 확인
+
+----------------------------------
+
+root 모듈 / child 모듈
+
+mkdir 13-module
+cd 13-module
+tree
+ 
+ -------------
+
